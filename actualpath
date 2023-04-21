@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+echo $(realpath $(which -a "$1" | grep -m1 ""))
